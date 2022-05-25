@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+/*css del header*/
+header{
+    background-color: #02e6b0;
+}
+header img{
+    text-align: start;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 100px;
+    border: #240601 solid 10px;
+    padding: 20px;
+    background-color: #240601;  
+}
+a{
+    text-decoration: none;
+    color:#02e6b0;
+    font-family:'Montserrat', sans-serif;
+    font-size: 90px;
+    font-weight:bolder;
+}
+header nav ul{
+    position: absolute;
+    right:40px;
+    top: 30px; 
+}
+/*ccs de section*/
+.SecInicio{
+    display: flex;
+    justify-content:baseline;
+    background-color: #fc5d0d;
+}
+.ImgInicio{
+    background-image: url(../assets/inicio.jpg);
+    background-size: cover;
+    font-family:'Raleway', sans-serif;
+    font-size: 400px;
+    font-weight:bold;
+    text-align: center;
+    color: #02e6b0 ;
+    padding: 400px;   
+}
+section nav article{
+    font-family:'Montserrat', serif;
+    font-size: 200px;
+    text-align: center;
+    color:#240601;
+    margin: 50px 400px ;
+    padding: 50px 10px;
+    /* border:20px solid #02e6b0; */
+    width: 2500px;
+    height: 1900px;
+    /* background-color: white; */
+}
+section nav aside{
+   text-align: end;
+   margin: 50px 400px;
+}
+/*ccs del footer*/
+footer{
+    background-color:#240601;
+    color: #fc5d0d;
+    font-family:'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+footer div{
+    margin: 10px;
+    padding: 5px; 
+}
+.titulos{
+    font-size: 150px;
+    margin: 100;
+    padding: 100;
+    border: 10px;
+}
+.IconosRedes{
+    display: inline-block;    
+    margin: 20px;
+}
+ul li{
+    list-style-type: none;
+}
+/*css pages producto*/
+.galeriaProductos{
+    background-color:#fc5d0d;    
+}
+h2{
+    font-family:'Montserrat', serif;
+    font-size: 200px;
+    text-align: start;
+    color:#240601;
+    padding: 50px;   
+}
+.imagenGaleriaProducto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bordesRedondeados{
+    border-radius: 50px;
+}
+.descripcionProducto li{
+    font-family:'Montserrat', serif;
+    font-size: 100px;
+    margin: 80px;
+    display:inline-block;
+}
+.precioProducto li{
+    font-family:'Montserrat', serif;
+    font-size: 100px;
+    margin: 50px 550px;
+    display:inline-block;  
+}
+/* css pages eventos */
+.galeriaEventos{
+    background-color:#fc5d0d;
+}
+.galeriaEventos div{
+    padding: 150px;
+}
+h3{
+    font-family:'Montserrat', serif;
+    font-size: 200px;
+    text-align: start;
+    color:#240601;
+    padding: 50px; 
+}
+section div article p{
+    font-family:'Montserrat', serif;
+    font-size: 200px;
+    margin: 20px 550px;
+    padding: 100;
+    text-align:center;
+}
+.imagenGaleriaEventos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 100px;
+    padding: 50px
+}
+/* css pages contacto */
+.galeriaContacto{
+    background-color:#fc5d0d;
+}
+h4{
+    font-family:'Montserrat', serif;
+    font-size: 200px;
+    text-align: start;
+    color:#240601;
+    padding: 50px; 
+}
+.listaContacto{
+    padding: 150px;
+    font-family:'Montserrat', serif;
+    font-size: 100px;
+}
+
+.telefono, .locacion, .maps{
+    margin: 100px;
+}
+
+    
